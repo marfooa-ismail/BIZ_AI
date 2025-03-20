@@ -1,0 +1,119 @@
+/* Main Section - Flex Layout */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ✅ Form Styling - Looks Like a Proper Form */
+.form-container {
+    width: 48%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007bff;
+}
+
+/* Form Heading */
+.form-container h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Labels */
+.form-container label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Inputs & Textarea */
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Generate Button */
+.generate-button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.generate-button:hover {
+    background: #0056b3;
+}
+
+/* ✅ Pitch Box - Simple, Not Like a Form */
+.pitch-container {
+    width: 48%;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pitch Box Content */
+.pitch-container h2 {
+    text-align: center;
+    color: #28a745;
+}
+
+.pitch-content-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #28a745;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+/* ✅ Button Group (Download & Back) */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Download Button */
+.download-button {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background: #218838;
+}
+
+/* Back Button */
+.back-button {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
